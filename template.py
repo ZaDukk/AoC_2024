@@ -24,6 +24,7 @@ def replace_character_at_index(input_string, index, new_char):
 
 vectorsD = [(0, 1), (1, 0), (0, -1), (-1, 0), (-1, -1), (1, 1), (1, -1), (-1, 1)]
 vectors = [(0, 1), (1, 0), (0, -1), (-1, 0)]
+diagonals = [(-1, 1), (1, 1), (-1, -1), (1, -1)]
 dirs = {"up": (-1, 0), "down": (1, 0), "left": (0, -1), "right": (0, 1)}
 
 
