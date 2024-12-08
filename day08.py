@@ -1,4 +1,3 @@
-#part 1
 def find(pos1, pos2):
     r1, c1 = pos1
     r2, c2 = pos2
