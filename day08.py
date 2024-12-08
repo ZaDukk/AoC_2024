@@ -10,7 +10,7 @@ def find2(pos1, pos2):
     r1, c1 = pos1
     r2, c2 = pos2
     nr, nc = r2 + (r2 - r1), c2 + (c2 - c1)
-    antinodes2.add((r2, c2))  # Always include the second node
+    antinodes2.add((r2, c2)) 
     while 0 <= nr < rows and 0 <= nc < cols:
         antinodes2.add((nr, nc))
         nr += (r2 - r1)
